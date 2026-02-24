@@ -173,8 +173,6 @@ Se generan:
 
 ### 5️⃣ Tablas Pivote
 
-Train / Validation / Test:
-
 * Promedio académico por Beca/Deserción
 * Materias perdidas por Beca/Deserción
 * Conteos cruzados
@@ -203,8 +201,7 @@ Train / Validation / Test:
 * Conclusiones automáticas del análisis
 
 ### 📁 Estructura de salida:
-
-´´´
+```
 eda_output/
 ├── 00_descripcion_basica.csv
 ├── 01_tendencia_central_numericas.csv
@@ -223,7 +220,7 @@ eda_output/
 ├── 07_resumen_estadistico_por_clase.csv
 ├── 07_comparacion_medias_por_clase.csv
 └── 08_outliers_info.json
-´´´
+```
 ---
 
 # 📅 Semana 5 – Informe 1 del Proyecto de Aprendizaje
