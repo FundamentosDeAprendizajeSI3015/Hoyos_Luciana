@@ -231,3 +231,134 @@ El informe consolida todo el trabajo realizado en las semanas anteriores y forma
 
 ---
 
+# 📅 Semana 5 – Modelado Predictivo con Dataset de Películas
+
+📂 Carpeta: Lecture_05_movies_exercise
+
+## 🎯 Objetivo
+
+Implementar técnicas de aprendizaje supervisado para predecir ingresos de películas y clasificar si pertenecen a altos ingresos.
+
+## 🧠 Etapas implementadas
+
+### 1️⃣ Predicción continua
+
+* Estimación de ingresos (`Gross`) con Regresión Lineal regularizada (Ridge y Lasso).
+
+### 2️⃣ Clasificación binaria
+
+* Determinación de altos ingresos con Regresión Logística.
+
+### 3️⃣ Preprocesamiento
+
+* Limpieza de datos: extracción de año, conversión de duración, eliminación de separadores y símbolos monetarios.
+
+📂 Archivos principales: `lecture05_movies_exercise_luciana_hoyos.py`, `movies.csv`, `output/`
+
+---
+
+# 📅 Semana 6 – Clasificación de Deserción Estudiantil
+
+📂 Carpeta: Lecture_06_model_exercise
+
+## 🎯 Objetivo
+
+Predecir si un estudiante presenta riesgo de deserción utilizando modelos basados en árboles.
+
+## 🧠 Etapas implementadas
+
+### 1️⃣ Modelos comparados
+
+* Random Forest
+* Gradient Boosting
+
+### 2️⃣ Preprocesamiento
+
+* Eliminación de duplicados, imputación de nulos, codificación OneHot, escalado StandardScaler.
+
+📂 Archivos principales: `lecture_06_model_exercise_luciana_hoyos.py`, `dataset_desercion_estudiantes.csv`
+
+---
+
+# 📅 Semana 9 – Clustering Básico
+
+📂 Carpeta: Lecture_09_clustering
+
+## 🎯 Objetivo
+
+Implementar análisis de clustering básico con KMeans y DBSCAN en datasets sintéticos.
+
+## 🧠 Etapas implementadas
+
+### 1️⃣ Preprocesamiento
+
+* Separación de variables, escalado, PCA.
+
+### 2️⃣ Clustering
+
+* KMeans con selección de k por método del codo y silhouette.
+* DBSCAN.
+
+### 3️⃣ Evaluación
+
+* Métricas de silhouette, comparación con etiquetas reales si disponibles.
+
+📂 Archivos principales: `lecture_09.py`, `lecture_09_realista.py`, `dataset_sintetico_FIRE_UdeA.csv`, `dataset_sintetico_FIRE_UdeA_realista.csv`
+
+---
+
+# 📅 Semana 10 – Clustering Avanzado
+
+📂 Carpeta: Lecture_10_clustering
+
+## 🎯 Objetivo
+
+Aplicar técnicas avanzadas de clustering incluyendo implementaciones desde cero.
+
+## 🧠 Etapas implementadas
+
+### 1️⃣ Algoritmos
+
+* KMeans, DBSCAN, Subtractive Clustering, Fuzzy C-Means.
+
+### 2️⃣ Comparación
+
+* Resultados sobre datasets sintéticos y realistas.
+
+### 3️⃣ Evaluación
+
+* ARI, visualizaciones 2D/3D, guardado de resultados.
+
+📂 Archivos principales: `lecture_10.py`, `lecture_10_substractive.py`, `lecture_10_realista.py`, datasets sintéticos.
+
+---
+
+# 📅 Semana 11 – Informe 2 Teórico-Práctico: Análisis de Deserción Estudiantil
+
+📂 Carpeta: informe_2_teorico_practico
+
+## 🎯 Objetivo
+
+Predecir la deserción estudiantil utilizando técnicas de aprendizaje no supervisado y supervisado, incluyendo clustering y modelos de clasificación.
+
+## 🧠 Etapas implementadas
+
+### 1️⃣ Análisis NO supervisado
+
+* Algoritmos de clustering: KMeans, Fuzzy C-Means, Subtractive Clustering, DBSCAN.
+
+### 2️⃣ Re-evaluación de etiquetas
+
+* Revisión del 30% de etiquetas potencialmente incorrectas.
+
+### 3️⃣ Modelos supervisados
+
+* Árbol de Decisión, Regresión Logística, Regresión Lineal con etiquetas re-evaluadas.
+
+### 4️⃣ Comparación
+
+* Evaluación comparativa entre dataset original y re-etiquetado.
+
+📂 Archivos principales: `informe_desercion.py`, `dataset_desercion_estudiantes.csv`, `output_desercion/output/comparacion_modelos.csv`
+
+---
